@@ -1,8 +1,8 @@
 package com.encyteus.waterball;
 
 import android.annotation.SuppressLint;
-import android.support.constraint.ConstraintLayout;
-import android.support.v7.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -170,3 +170,4 @@ public class MainActivity extends AppCompatActivity {
         Water_ball_9.setAnimation(mAnimation9);
     }
 }
+
